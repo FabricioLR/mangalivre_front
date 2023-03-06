@@ -1,0 +1,161 @@
+@media (max-width: 480px) {
+    html #cover img{
+        width: 250px;
+        height: 350px;
+    }
+    html #images img{
+        width: 95%;
+    }
+    html #chapters > div:first-child{
+        width: 90px;
+        height: 40px;
+    }
+    html #chapters > div:nth-child(2) select{
+        height: 40px;
+        width: 150px;
+    }
+    
+    html #chapters > div:last-child{
+        width: 90px;
+        height: 40px;
+    }
+    html #next{
+        width: 60%;
+        height: 30px;
+    }
+    html #top{
+        width: 60%;
+        height: 30px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 380px) {
+    html #cover img{
+        width: 220px;
+        height: 350px;
+    }
+    html #cover p{
+        font-size: 18px;
+    }
+    html #chapters > div:first-child{
+        width: 70px;
+        height: 35px;
+    }
+    html #chapters > div:nth-child(2) select{
+        height: 35px;
+        width: 120px;
+        font-size: 14px;
+    }
+    html #chapters > div:last-child{
+        width: 70px;
+        height: 35px;
+    }
+    html #top{
+        font-size: 12px;
+    }
+}
+
+#reader{
+    width: 100%;
+}
+
+#cover{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#cover img{
+    width: 400px;
+    height: 600px;
+}
+#cover p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#chapters{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+#chapters > div:first-child{
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(201, 201, 201);
+    cursor: pointer;
+}
+#chapters > div:nth-child(2) select{
+    appearance: none;
+    border: none;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    outline: none;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#chapters > div:nth-child(2) select option:not(:checked){
+    background-color: blakc;
+}
+
+#chapters > div:last-child{
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(201, 201, 201);
+    cursor: pointer;
+}
+
+#images{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+#images img{
+    width: 80%;
+}
+#next{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(201, 201, 201);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#top{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(201, 201, 201);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
