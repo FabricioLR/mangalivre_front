@@ -4,7 +4,7 @@ import axios from "axios"
 //"https://mangalivre-back.onrender.com"
 
 const api = axios.create({
-    baseURL: "https://mangalivre-back.onrender.com"
+    baseURL: "https://d343-2804-2098-131-2300-6813-24c3-b021-4.sa.ngrok.io"
 })
 
 export default api
